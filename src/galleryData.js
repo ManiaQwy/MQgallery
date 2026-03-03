@@ -16,6 +16,16 @@ import jozgif from './assets/poster5gif.gif'
 import brainfuckposter from './assets/Schizodipshitbrainfuck.png'
 import brainfuckgif from './assets/poster6gif.gif'
 
+import sludgeposter from './assets/wasteland.png'
+import sludgegif from './assets/poster7gif.gif'
+
+import ratlayerposter from './assets/ratlayer.png'
+import ratlayergif from './assets/poster8gif.gif'
+
+import jazzupposter from './assets/jazzup.png'
+import jazzupgif from './assets/poster9gif.gif'
+
+
 
 export const GALLERY_DATA = {
     richarddjames:{
@@ -53,5 +63,23 @@ export const GALLERY_DATA = {
         gif: brainfuckgif,
         title: "schizo_brainfuck.png",
         date: "20.01.2026"
-    }
+    },
+    sludge:{
+        poster: sludgeposter,
+        gif: sludgegif,
+        title: "elektras_sludge.png",
+        date: "20.01.2026"
+    },
+    ratlayer:{
+        poster: ratlayerposter,
+        gif: ratlayergif,
+        title: "rat_layer.png",
+        date: "20.01.2026"
+    },
+    jazzup:{
+        poster: jazzupposter,
+        gif: jazzupgif,
+        title: "jassmine.png",
+        date: "20.01.2026"
+    },
 }

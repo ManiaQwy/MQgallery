@@ -25,6 +25,9 @@ export default function Gallery(prop){
             <PosterButton buttonImage={GALLERY_DATA["nub"].gif}isSelected={newPoster == 'nub'} onSelect={() => onPosterClick("nub")}></PosterButton>
             <PosterButton buttonImage={GALLERY_DATA["joz"].gif}isSelected={newPoster == 'joz'} onSelect={() => onPosterClick("joz")}></PosterButton>
             <PosterButton buttonImage={GALLERY_DATA["brainfuck"].gif}isSelected={newPoster == 'brainfuck'} onSelect={() => onPosterClick("brainfuck")}></PosterButton>
+            <PosterButton buttonImage={GALLERY_DATA["sludge"].gif}isSelected={newPoster == 'sludge'} onSelect={() => onPosterClick("sludge")}></PosterButton>
+            <PosterButton buttonImage={GALLERY_DATA["ratlayer"].gif}isSelected={newPoster == 'ratlayer'} onSelect={() => onPosterClick("ratlayer")}></PosterButton>
+            <PosterButton buttonImage={GALLERY_DATA["jazzup"].gif}isSelected={newPoster == 'jazzup'} onSelect={() => onPosterClick("jazzup")}></PosterButton>
         </section>
     )
 }
