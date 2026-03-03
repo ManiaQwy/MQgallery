@@ -10,9 +10,10 @@
 
 
 .showoff{
-    position: fixed;
+    position:absolute;
     width: 100%;
     max-width: 60rem;
+    height: 100vh;
     backdrop-filter: blur(10px);
     overflow: hidden;
     animation: onAppearence 2s ease-in-out;
@@ -23,7 +24,7 @@
 }
 
 .showoff img{
-    max-width: 37rem;
+    max-width: 20rem;
 }
 
 .showoff *{
