@@ -1,0 +1,18 @@
+@keyframes onAppearence {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.showoff{
+    position: fixed;
+    width: 90%;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    animation: onAppearence 2s ease-in-out;
+}
+
+.showoff *{
+    font-size: xx-large;
+    animation: onAppearence 2s ease-in-out;
+    
+}
