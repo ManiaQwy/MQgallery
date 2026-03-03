@@ -13,7 +13,7 @@
     position: fixed;
     width: 100%;
     max-width: 60rem;
-    height: 100vh;
+    height: 60rem;
     backdrop-filter: blur(10px);
     overflow: hidden;
     animation: onAppearence 2s ease-in-out;
