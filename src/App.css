@@ -1,4 +1,7 @@
 #root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Jacquard 12", system-ui;
   width: 90%;
   margin: 0 auto;
