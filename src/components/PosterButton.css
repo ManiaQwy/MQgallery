@@ -2,3 +2,13 @@ button{
     background-color: transparent;
     border: none;
 }
+
+/*button img:hover {
+    background: #FFF;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 55%);
+    animation: onAppearence 1s ease-out;
+    backdrop-filter: blur(20px);
+    backdrop-filter: opacity(0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}*/

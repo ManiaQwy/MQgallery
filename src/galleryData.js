@@ -43,7 +43,7 @@ export const GALLERY_DATA = {
     wingsguidence:{
         poster: wingsposter,
         gif: wingsgif,
-        title: "let_your_wings_guide_you.png",
+        title: "skyward_guidence.png",
         date: "20.01.2026"
     },
     nub:{
