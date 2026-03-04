@@ -1,29 +1,29 @@
 import richarddposter from './assets/richarddhighres.png'
-import richarddgif from './assets/poster1gif.gif'
+import richarddgif from './assets/poster1gif.webp'
 
 import paletteposter from './assets/expandyourpaletteposterized.png'
-import palettegif from './assets/poster2gif.gif'
+import palettegif from './assets/poster2gif.webp'
 
 import wingsposter from './assets/lywgyposter.png'
-import wingsgif from './assets/poster3gif.gif'
+import wingsgif from './assets/poster3gif.webp'
 
 import nubposter from './assets/imnubbingit.png'
-import nubgif from './assets/poster4gif.gif'
+import nubgif from './assets/poster4gif.webp'
 
 import jozposter from './assets/jozislandposterized.png'
-import jozgif from './assets/poster5gif.gif'
+import jozgif from './assets/poster5gif.webp'
 
 import brainfuckposter from './assets/Schizodipshitbrainfuck.png'
-import brainfuckgif from './assets/poster6gif.gif'
+import brainfuckgif from './assets/poster6gif.webp'
 
 import sludgeposter from './assets/wasteland.png'
-import sludgegif from './assets/poster7gif.gif'
+import sludgegif from './assets/poster7gif.webp'
 
 import ratlayerposter from './assets/ratlayer.png'
-import ratlayergif from './assets/poster8gif.gif'
+import ratlayergif from './assets/poster8gif.webp'
 
 import jazzupposter from './assets/jazzup.png'
-import jazzupgif from './assets/poster9gif.gif'
+import jazzupgif from './assets/poster9gif.webp'
 
 
 

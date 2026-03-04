@@ -9,24 +9,37 @@
 }
 
 
-.showoff{
-    margin-top: -5rem;
+.showoff {
     position: fixed;
+    inset: 0;
     width: 100%;
     max-width: 60rem;
+    margin-inline: auto;
     height: 100vh;
     backdrop-filter: blur(10px);
     overflow: hidden;
-    animation: onAppearence 2s ease-in-out;
+    animation: onAppearence 0.3s ease-in-out;
     display: flex;
-    flex-direction: column;        
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-top: 5rem;
-
+    gap: 1rem;
+    padding: 0;
 }
 
-.showoff img{
-    max-width: 20rem;
+.showoff img {
+    height: 80vh;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.showoff p {
+    width: 80vw;
+    max-width: 60rem;
+    text-align: center;
+    font-size: xx-large;
+    animation: onAppearence 2s ease-in-out;
 }
 
 .showoff *{
