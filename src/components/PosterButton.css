@@ -12,3 +12,7 @@ button{
     border-radius: 50%;
     cursor: pointer;
 }*/
+
+button img:hover {
+    cursor: pointer;
+}

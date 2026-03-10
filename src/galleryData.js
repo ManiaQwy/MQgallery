@@ -1,29 +1,38 @@
-import richarddposter from './assets/richarddhighres.png'
+import richarddposter from './assets/richarddhighres.webp'
 import richarddgif from './assets/poster1gif.webp'
 
-import paletteposter from './assets/expandyourpaletteposterized.png'
+import paletteposter from './assets/expandyourpaletteposterized.webp'
 import palettegif from './assets/poster2gif.webp'
 
-import wingsposter from './assets/lywgyposter.png'
+import wingsposter from './assets/lywgyposter.webp'
 import wingsgif from './assets/poster3gif.webp'
 
-import nubposter from './assets/imnubbingit.png'
+import nubposter from './assets/imnubbingit.webp'
 import nubgif from './assets/poster4gif.webp'
 
-import jozposter from './assets/jozislandposterized.png'
+import jozposter from './assets/jozislandposterized.webp'
 import jozgif from './assets/poster5gif.webp'
 
-import brainfuckposter from './assets/Schizodipshitbrainfuck.png'
+import brainfuckposter from './assets/Schizodipshitbrainfuck.webp'
 import brainfuckgif from './assets/poster6gif.webp'
 
-import sludgeposter from './assets/wasteland.png'
+import sludgeposter from './assets/wasteland.webp'
 import sludgegif from './assets/poster7gif.webp'
 
-import ratlayerposter from './assets/ratlayer.png'
+import ratlayerposter from './assets/ratlayer.webp'
 import ratlayergif from './assets/poster8gif.webp'
 
-import jazzupposter from './assets/jazzup.png'
+import jazzupposter from './assets/jazzup.webp'
 import jazzupgif from './assets/poster9gif.webp'
+
+import pompeiiposter from './assets/pompeiislashutility.webp'
+import pompeiigif from './assets/poster10gif.webp'
+
+import wavesposter from './assets/wavesWeffects.webp'
+import wavesgif from './assets/poster11gif.webp'
+
+import icantkillmyselfposter from './assets/icantkillmyselfposter.webp'
+import icantkillmyselfgif from './assets/poster12gif.webp'
 
 
 
@@ -82,4 +91,25 @@ export const GALLERY_DATA = {
         title: "jassmine.png",
         date: "20.01.2026"
     },
+    utility:{
+        poster: pompeiiposter,
+        gif: pompeiigif,
+        title: "pompeiislashutility.png",
+        date: "20.01.2026"
+    },
+    waves:{
+        poster: wavesposter,
+        gif: wavesgif,
+        title: "wavy.png",
+        date: "20.01.2026"
+    },
+    tumor:{
+        poster: icantkillmyselfposter,
+        gif: icantkillmyselfgif,
+        title: "ifhumanbodyhadwhatsapp.png",
+        date: "20.01.2026"
+    },
 }
+
+//WEBP-fying
+// Get-ChildItem *.gif | ForEach-Object { ffmpeg -i $_.FullName -loop 0 "$($_.BaseName).webp" }

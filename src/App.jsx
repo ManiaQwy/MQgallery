@@ -6,10 +6,11 @@ import SoundButton from './components/SoundButton'
 function App() {
 
   return (<>
+    <SoundButton/>
       <Gallery>
         <Header/>
       </Gallery>
-      <SoundButton/>
+    
       </>
   )
 }
