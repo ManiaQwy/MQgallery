@@ -7,7 +7,7 @@ export default function PosterButton(prop){
         onClick={
             prop.onSelect
         }>{prop.children}   
-            <img src={prop.buttonImage} loading="lazy" alt='they make lazy susans for posters now?'/>
+            <img src={prop.buttonImage} alt='they make lazy susans for posters now?'/>
         </button>
         
     )

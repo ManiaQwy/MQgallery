@@ -3,8 +3,7 @@
   flex-direction: column;
   align-items: center;
   font-family: "Jacquard 12", system-ui;
-  width: 100%;
-  max-width: 60rem;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
 }
