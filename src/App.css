@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   font-family: "Jacquard 12", system-ui;
-  width: 90%;
+  width: 100%;
+  max-width: 60rem;
   margin: 0 auto;
   text-align: center;
-  overflow-x: hidden;
 }

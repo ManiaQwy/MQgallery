@@ -13,7 +13,7 @@ export default function Gallery(prop){
     return(
         <section id="gallery">
             {newPoster ? (
-                <section class="showoff" onClick={() => onPosterClick(undefined)}>
+                <section className="showoff" onClick={() => onPosterClick(undefined)}>
         <img src={GALLERY_DATA[newPoster].poster} alt={GALLERY_DATA[newPoster].title} />
         <p>{GALLERY_DATA[newPoster].title}</p>
         </section>

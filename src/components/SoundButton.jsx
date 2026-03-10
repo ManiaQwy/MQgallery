@@ -17,8 +17,10 @@ export default function SoundButton() {
     }
 
     return (
-        <button onClick={playpause}>
+        <div className="bg">
+        <button className="track" onClick={playpause}>
             {isPlaying ? "Pause" : "Play"}
         </button>
+        </div>
     )
 }
