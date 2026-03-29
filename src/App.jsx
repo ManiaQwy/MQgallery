@@ -9,9 +9,9 @@ function App() {
 
   return (<Background>
     <>
-    <SoundButton/>
       <Gallery>
         <Header/>
+        <SoundButton/>
       </Gallery>
       <Footer></Footer>
       </>
