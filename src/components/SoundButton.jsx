@@ -1,10 +1,11 @@
 import { useState } from "react"
-import SOUNDTRACK from '../assets/djrozwellnonisreal.mp3'
+import SOUNDTRACK from '../assets/iembracethedyingworld.mp3'
 import './SoundButton.css'
 
 const audio = new Audio(SOUNDTRACK);
+audio.loop = true;
 
-export default function SoundButton() {
+export default function SoundButton({children}) {
     const [isPlaying, setIsPlaying] = useState(false);
 
     function playpause() {
@@ -19,7 +20,9 @@ export default function SoundButton() {
     return (
         <div className="bg">
         <button className="track" onClick={playpause}>
-            {isPlaying ? "Pause" : "Play"}
+            {//isPlaying ? "Pause" : "Play"
+            }
+            {children}
         </button>
         </div>
     )

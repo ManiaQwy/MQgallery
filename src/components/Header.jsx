@@ -6,7 +6,8 @@ export default function Header(){
     return(
         <header>
             <img src={mqLogo} alt="logo" />
-            <img src={ratLogo} alt="rat" />
+            {//<img src={ratLogo} alt="rat" />
+            }
         </header>
     )
 }
