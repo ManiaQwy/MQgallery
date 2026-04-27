@@ -43,6 +43,12 @@ import polotgif from './assets/poster14gif.webp'
 import leadbellyposter from './assets/leadbellyradom.webp'
 import leadbellygif from './assets/poster15gif.webp'
 
+import realboonkposter from './assets/GETREALFTBOONK.webp'
+import realboonkgif from './assets/poster16gif.webp'
+
+import boonkswampposter from './assets/boonkbog.webp'
+import boonkswampgif from './assets/poster17gif.webp'
+
 
 
 export const GALLERY_DATA = {
@@ -120,6 +126,16 @@ export const GALLERY_DATA = {
         poster: leadbellyposter,
         gif: leadbellygif,
         title: "rdmpompeii_leadbelly.png",
+    },
+    real:{
+        poster: realboonkposter,
+        gif: realboonkgif,
+        title: "boonkgetsrealNOCLICKBAIT.png"
+    },
+    swamp:{
+        poster: boonkswampposter,
+        gif: boonkswampgif,
+        title: "boonk_swamp.png"
     }
 }
 
