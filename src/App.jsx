@@ -17,10 +17,10 @@ function App() {
           <SoundButton>
             <Header/>
           </SoundButton>
-          <Quote>
-            "You are a violent and irrepressible miracle. The vacuum of cosmos and the stars burning in it are afraid of you. Given enough time you would wipe us all out and replace us with nothing -- just by accident."
-          </Quote>
       </Gallery>
+      <Quote>
+            "You are a violent and irrepressible miracle. The vacuum of cosmos and the stars burning in it are afraid of you. Given enough time you would wipe us all out and replace us with nothing -- just by accident."
+      </Quote>
       <Footer></Footer>
       </>
       

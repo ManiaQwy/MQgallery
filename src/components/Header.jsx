@@ -1,4 +1,4 @@
-import mqLogo from '../assets/MQaystickerNONIGGRADIENT.webp'
+import mqLogo from '../assets/MQaystickerNONIGGRADIENTmusic.webp'
 import ratLogo from '../assets/ratwmascNOIGGRADIENT.png'
 import './Header.css'
 
