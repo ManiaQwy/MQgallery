@@ -49,6 +49,9 @@ import realboonkgif from './assets/poster16gif.webp'
 import boonkswampposter from './assets/boonkbog.webp'
 import boonkswampgif from './assets/poster17gif.webp'
 
+import punktwyjsciaposter from './assets/szaberpunktwyjscia.webp'
+import punktwyjsciagif from './assets/poster18gif.webp'
+
 
 
 export const GALLERY_DATA = {
@@ -130,12 +133,17 @@ export const GALLERY_DATA = {
     real:{
         poster: realboonkposter,
         gif: realboonkgif,
-        title: "boonkgetsrealNOCLICKBAIT.png"
+        title: "boonkgetsrealfr.png"
     },
     swamp:{
         poster: boonkswampposter,
         gif: boonkswampgif,
         title: "boonk_swamp.png"
+    },
+    esc:{
+        poster: punktwyjsciaposter,
+        gif: punktwyjsciagif,
+        title: "PKTnietenESC.png"
     }
 }
 
