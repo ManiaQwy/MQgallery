@@ -14,8 +14,8 @@
     width: 100%;
     max-width: 60rem;
     margin-inline: auto;
-    height: 100vh;
-    backdrop-filter: blur(10px);
+    height: 105vh;
+    backdrop-filter: blur(15px);
     overflow: hidden;
     animation: onAppearence 0.3s ease-in-out;
     display: flex;

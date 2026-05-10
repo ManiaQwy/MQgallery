@@ -52,6 +52,9 @@ import boonkswampgif from './assets/poster17gif.webp'
 import punktwyjsciaposter from './assets/szaberpunktwyjscia.webp'
 import punktwyjsciagif from './assets/poster18gif.webp'
 
+import dreammanposter from './assets/inyourdreamsfin.webp'
+import dreammangif from './assets/poster19gif.webp'
+
 
 
 export const GALLERY_DATA = {
@@ -144,6 +147,11 @@ export const GALLERY_DATA = {
         poster: punktwyjsciaposter,
         gif: punktwyjsciagif,
         title: "PKTnietenESC.png"
+    },
+    dream:{
+        poster: dreammanposter,
+        gif: dreammangif,
+        title: "in_yourDreams.png"
     }
 }
 
