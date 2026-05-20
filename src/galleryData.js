@@ -55,6 +55,9 @@ import punktwyjsciagif from './assets/poster18gif.webp'
 import dreammanposter from './assets/inyourdreamsfin.webp'
 import dreammangif from './assets/poster19gif.webp'
 
+import pandaposter from './assets/FENDERBENDERunpixelated.webp'
+import pandagif from './assets/poster20gif.webp'
+
 
 
 export const GALLERY_DATA = {
@@ -152,6 +155,11 @@ export const GALLERY_DATA = {
         poster: dreammanposter,
         gif: dreammangif,
         title: "in_yourDreams.png"
+    },
+    panda:{
+        poster: pandaposter,
+        gif: pandagif,
+        title: "getbentxoxo.png"
     }
 }
 
