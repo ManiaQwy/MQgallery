@@ -1,5 +1,5 @@
-import mqLogo from '../assets/MQaystickerNONIGGRADIENTmusic.webp'
-import ratLogo from '../assets/ratwmascNOIGGRADIENT.png'
+import mqLogo from '../assets/misc/MQaystickerNONIGGRADIENTmusic.webp'
+import ratLogo from '../assets/misc/ratwmascNOIGGRADIENT.png'
 import './Header.css'
 
 export default function Header(){

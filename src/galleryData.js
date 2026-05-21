@@ -1,62 +1,62 @@
-import richarddposter from './assets/richarddhighres.webp'
-import richarddgif from './assets/poster1gif.webp'
+import richarddposter from './assets/posters/richarddhighres.webp'
+import richarddgif from './assets/gifs/poster1gif.webp'
 
-import paletteposter from './assets/expandyourpaletteposterized.webp'
-import palettegif from './assets/poster2gif.webp'
+import paletteposter from './assets/posters/expandyourpaletteposterized.webp'
+import palettegif from './assets/gifs/poster2gif.webp'
 
-import wingsposter from './assets/lywgyposter.webp'
-import wingsgif from './assets/poster3gif.webp'
+import wingsposter from './assets/posters/lywgyposter.webp'
+import wingsgif from './assets/gifs/poster3gif.webp'
 
-import nubposter from './assets/imnubbingit.webp'
-import nubgif from './assets/poster4gif.webp'
+import nubposter from './assets/posters/imnubbingit.webp'
+import nubgif from './assets/gifs/poster4gif.webp'
 
-import jozposter from './assets/jozislandposterized.webp'
-import jozgif from './assets/poster5gif.webp'
+import jozposter from './assets/posters/jozislandposterized.webp'
+import jozgif from './assets/gifs/poster5gif.webp'
 
-import brainfuckposter from './assets/Schizodipshitbrainfuck.webp'
-import brainfuckgif from './assets/poster6gif.webp'
+import brainfuckposter from './assets/posters/Schizodipshitbrainfuck.webp'
+import brainfuckgif from './assets/gifs/poster6gif.webp'
 
-import sludgeposter from './assets/wasteland.webp'
-import sludgegif from './assets/poster7gif.webp'
+import sludgeposter from './assets/posters/wasteland.webp'
+import sludgegif from './assets/gifs/poster7gif.webp'
 
-import ratlayerposter from './assets/ratlayer.webp'
-import ratlayergif from './assets/poster8gif.webp'
+import ratlayerposter from './assets/posters/ratlayer.webp'
+import ratlayergif from './assets/gifs/poster8gif.webp'
 
-import jazzupposter from './assets/jazzup.webp'
-import jazzupgif from './assets/poster9gif.webp'
+import jazzupposter from './assets/posters/jazzup.webp'
+import jazzupgif from './assets/gifs/poster9gif.webp'
 
-import pompeiiposter from './assets/pompeiislashutility.webp'
-import pompeiigif from './assets/poster10gif.webp'
+import pompeiiposter from './assets/posters/pompeiislashutility.webp'
+import pompeiigif from './assets/gifs/poster10gif.webp'
 
 //import wavesposter from './assets/wavesWeffects.webp'
 //import wavesgif from './assets/poster11gif.webp'
 
-import icantkillmyselfposter from './assets/icantkillmyselfposter.webp'
-import icantkillmyselfgif from './assets/poster12gif.webp'
+import icantkillmyselfposter from './assets/posters/icantkillmyselfposter.webp'
+import icantkillmyselfgif from './assets/gifs/poster12gif.webp'
 
-import starfetchposter from './assets/starfetchers1.webp'
-import starfetchgif from './assets/poster13gif.webp'
+import starfetchposter from './assets/posters/starfetchers1.webp'
+import starfetchgif from './assets/gifs/poster13gif.webp'
 
-import polotposter from './assets/iwychodze.webp'
-import polotgif from './assets/poster14gif.webp'
+import polotposter from './assets/posters/iwychodze.webp'
+import polotgif from './assets/gifs/poster14gif.webp'
 
-import leadbellyposter from './assets/leadbellyradom.webp'
-import leadbellygif from './assets/poster15gif.webp'
+import leadbellyposter from './assets/posters/leadbellyradom.webp'
+import leadbellygif from './assets/gifs/poster15gif.webp'
 
-import realboonkposter from './assets/GETREALFTBOONK.webp'
-import realboonkgif from './assets/poster16gif.webp'
+import realboonkposter from './assets/posters/GETREALFTBOONK.webp'
+import realboonkgif from './assets/gifs/poster16gif.webp'
 
-import boonkswampposter from './assets/boonkbog.webp'
-import boonkswampgif from './assets/poster17gif.webp'
+import boonkswampposter from './assets/posters/boonkbog.webp'
+import boonkswampgif from './assets/gifs/poster17gif.webp'
 
-import punktwyjsciaposter from './assets/szaberpunktwyjscia.webp'
-import punktwyjsciagif from './assets/poster18gif.webp'
+import punktwyjsciaposter from './assets/posters/szaberpunktwyjscia.webp'
+import punktwyjsciagif from './assets/gifs/poster18gif.webp'
 
-import dreammanposter from './assets/inyourdreamsfin.webp'
-import dreammangif from './assets/poster19gif.webp'
+import dreammanposter from './assets/posters/inyourdreamsfin.webp'
+import dreammangif from './assets/gifs/poster19gif.webp'
 
-import pandaposter from './assets/FENDERBENDERunpixelated.webp'
-import pandagif from './assets/poster20gif.webp'
+import pandaposter from './assets/posters/FENDERBENDERunpixelated.webp'
+import pandagif from './assets/gifs/poster20gif.webp'
 
 
 

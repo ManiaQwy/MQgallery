@@ -1,5 +1,5 @@
 import { useState } from "react"
-import SOUNDTRACK from '../assets/iembracethedyingworld.mp3'
+import SOUNDTRACK from '../assets/misc/iembracethedyingworld.mp3'
 import './SoundButton.css'
 
 const audio = new Audio(SOUNDTRACK);
