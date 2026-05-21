@@ -17,7 +17,7 @@ export default function Photobooth(){
     return(
         <div className="showcase">
             <button className="boothbutton" onClick={() => onButtonPress(index - 1)}>{"<"}</button>
-            <img src={PHOTOS_ARRAY[index]} alt="bent yo circit" />
+            <img src={PHOTOS_ARRAY[index]} alt="bent yo circit" onClick={() => onButtonPress(index + 1)}/>
             <button className="boothbutton" onClick={() => onButtonPress(index + 1)}>{">"}</button>
         </div>
     )
