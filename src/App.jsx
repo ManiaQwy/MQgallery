@@ -32,9 +32,9 @@ function App() {
             </>
           </Burger>*/}
       </Gallery>
-      <Quote>
+      {/*<Quote>
             "You are a violent and irrepressible miracle. The vacuum of cosmos and the stars burning in it are afraid of you. Given enough time you would wipe us all out and replace us with nothing -- just by accident."
-      </Quote>
+      </Quote>*/}
       <Footer></Footer>
       </>
       
