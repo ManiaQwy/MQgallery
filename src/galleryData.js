@@ -58,6 +58,9 @@ import dreammangif from './assets/gifs/poster19gif.webp'
 import pandaposter from './assets/posters/FENDERBENDERunpixelated.webp'
 import pandagif from './assets/gifs/poster20gif.webp'
 
+import bystormposter from './assets/posters/bystormfinal.webp'
+import bystormgif from './assets/gifs/poster21gif.webp'
+
 
 
 export const GALLERY_DATA = {
@@ -160,6 +163,11 @@ export const GALLERY_DATA = {
         poster: pandaposter,
         gif: pandagif,
         title: "getbentxoxo.png"
+    },
+    bystorm:{
+        poster: bystormposter,
+        gif: bystormgif,
+        title: "Already_in_Phoenix.png"
     }
 }
 
