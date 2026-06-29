@@ -61,6 +61,22 @@ import pandagif from './assets/gifs/poster20gif.webp'
 import bystormposter from './assets/posters/bystormfinal.webp'
 import bystormgif from './assets/gifs/poster21gif.webp'
 
+import uwagaposter from './assets/posters/ATENCIO.webp'
+import uwagagif from './assets/gifs/poster22gif.webp'
+
+import rubnubposter from './assets/posters/rubthatnub.webp'
+import rubnubgif from './assets/gifs/poster23gif.webp'
+
+import rubnub2poster from './assets/posters/rubthanub2.webp'
+import rubnub2gif from './assets/gifs/poster24gif.webp'
+
+import avesposter from './assets/posters/youarebeingwatched.webp'
+import avesgif from './assets/gifs/poster25gif.webp'
+
+import backroomsposter from './assets/posters/Documenbustaroom.webp'
+import backroomsgif from './assets/gifs/poster26gif.webp'
+
+
 
 
 export const GALLERY_DATA = {
@@ -168,6 +184,31 @@ export const GALLERY_DATA = {
         poster: bystormposter,
         gif: bystormgif,
         title: "Already_in_Phoenix.png"
+    },
+    warning:{
+        poster: uwagaposter,
+        gif: uwagagif,
+        title: "mq-in_your-area.png"
+    },
+    rubnub:{
+        poster: rubnubposter,
+        gif: rubnubgif,
+        title: "rub_that_nub.png"
+    },
+    rubnub2:{
+        poster: rubnub2poster,
+        gif: rubnub2gif,
+        title: "rtn2 - bigger & nubbier.png"
+    },
+    aves:{
+        poster: avesposter,
+        gif: avesgif,
+        title: "birdwatching.png"
+    },
+    backrooms:{
+        poster: backroomsposter,
+        gif: backroomsgif,
+        title: "interior_design.png"
     }
 }
 
