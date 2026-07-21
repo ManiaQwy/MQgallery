@@ -76,6 +76,9 @@ import avesgif from './assets/gifs/poster25gif.webp'
 import backroomsposter from './assets/posters/Documenbustaroom.webp'
 import backroomsgif from './assets/gifs/poster26gif.webp'
 
+import seasetposter from './assets/posters/inseawetrust.webp'
+import seasetgif from './assets/gifs/poster27gif.webp'
+
 
 
 
@@ -209,6 +212,11 @@ export const GALLERY_DATA = {
         poster: backroomsposter,
         gif: backroomsgif,
         title: "interior_design.png"
+    },
+    seaside:{
+        poster: seasetposter,
+        gif: seasetgif,
+        title: "inseawetrust.png"
     }
 }
 
