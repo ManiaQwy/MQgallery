@@ -79,6 +79,9 @@ import backroomsgif from './assets/gifs/poster26gif.webp'
 import seasetposter from './assets/posters/inseawetrust.webp'
 import seasetgif from './assets/gifs/poster27gif.webp'
 
+import butterflyposter from './assets/posters/asweturntorot.webp'
+import butterflygif from './assets/gifs/poster28gif.webp'
+
 
 
 
@@ -217,6 +220,11 @@ export const GALLERY_DATA = {
         poster: seasetposter,
         gif: seasetgif,
         title: "inseawetrust.png"
+    },
+    rotpot:{
+        poster: butterflyposter,
+        gif: butterflygif,
+        title: "asweturntorot.png"
     }
 }
 
