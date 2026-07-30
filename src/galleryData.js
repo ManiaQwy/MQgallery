@@ -82,6 +82,9 @@ import seasetgif from './assets/gifs/poster27gif.webp'
 import butterflyposter from './assets/posters/asweturntorot.webp'
 import butterflygif from './assets/gifs/poster28gif.webp'
 
+import szasl33pposter from './assets/posters/szaXas3poster.webp'
+import szasl33pgif from './assets/gifs/poster29gif.webp'
+
 
 
 
@@ -225,6 +228,11 @@ export const GALLERY_DATA = {
         poster: butterflyposter,
         gif: butterflygif,
         title: "asweturntorot.png"
+    }, 
+    szaxas3:{
+        poster: szasl33pposter,
+        gif: szasl33pgif,
+        title: "szaberxasl33psign.png"
     }
 }
 
