@@ -85,6 +85,9 @@ import butterflygif from './assets/gifs/poster28gif.webp'
 import szasl33pposter from './assets/posters/szaXas3poster.webp'
 import szasl33pgif from './assets/gifs/poster29gif.webp'
 
+import dumpsterposter from './assets/posters/STAYWITHME.webp'
+import dumpstergif from './assets/gifs/poster30gif.webp'
+
 
 
 
@@ -233,6 +236,11 @@ export const GALLERY_DATA = {
         poster: szasl33pposter,
         gif: szasl33pgif,
         title: "szaberxasl33psign.png"
+    },
+    pleasestay:{
+        poster: dumpsterposter,
+        gif: dumpstergif,
+        title: "please, stay some more"
     }
 }
 
