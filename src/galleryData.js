@@ -88,6 +88,9 @@ import szasl33pgif from './assets/gifs/poster29gif.webp'
 import dumpsterposter from './assets/posters/STAYWITHME.webp'
 import dumpstergif from './assets/gifs/poster30gif.webp'
 
+import idoctrposter from './assets/posters/wodazmozgu.webp'
+import indoctrgif from './assets/gifs/poster31gif.webp'
+
 
 
 
@@ -241,6 +244,11 @@ export const GALLERY_DATA = {
         poster: dumpsterposter,
         gif: dumpstergif,
         title: "please, stay some more"
+    },
+    brainsoup:{
+        poster: indoctrposter,
+        gif: indoctrgif,
+        title: "woda_z_mozgu.png"
     }
 }
 
