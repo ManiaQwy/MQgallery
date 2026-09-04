@@ -1,14 +1,19 @@
-.track{
+.track {
     font-family: "Jacquard 12", system-ui;
     font-size: 2rem;
-    margin:1rem 0 0rem 0;
 }
 
-.bg{
-    width: 100%;
-
+.bg {
+    position: fixed;
+    top: 100;
+    right: 100;
+    z-index: 9999;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
+}
+
+#smack {
+    width: 3rem;
 }

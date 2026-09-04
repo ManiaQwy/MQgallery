@@ -15,9 +15,8 @@ function App() {
     <Background>
     <>
       <Gallery>
-          <SoundButton>
-            <Header/>
-          </SoundButton>
+          <SoundButton></SoundButton>
+          <Header/>
           <Photobooth/>
           {/*<Burger>
             <>
