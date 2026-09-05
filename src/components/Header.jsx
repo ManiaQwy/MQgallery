@@ -6,7 +6,7 @@ import './Header.css'
 export default function Header(){
     return(
         <header>
-            <img src={callcardLogo} alt="logo" style={{maxWidth: "15em", minWidth: "15em"}}/>
+            <img src={callcardLogo} alt="logo" style={{maxWidth: "30em", minWidth: "30em"}}/>
             {//<img src={ratLogo} alt="rat" />
             }
         </header>
