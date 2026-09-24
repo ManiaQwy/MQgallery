@@ -25,5 +25,6 @@ export const STICKER_DATA = {
     },
 }
 
+//???
 //WEBP-fying
 // Get-ChildItem *.png | ForEach-Object { ffmpeg -i $_.FullName "$($_.BaseName).webp" }

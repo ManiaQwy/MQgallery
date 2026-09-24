@@ -7,6 +7,7 @@ export default function Sticker(prop){
     const [newSticker, setNewSticker] = useState();
 
     const onStickerClick = (setPostStc) => {
+        console.log("HALO SOURCE CONTROL")
         setNewSticker(setPostStc);
     }
 
