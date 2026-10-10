@@ -91,6 +91,9 @@ import dumpstergif from './assets/gifs/poster30gif.webp'
 import indoctrposter from './assets/posters/wodazmozgu.webp'
 import indoctrgif from './assets/gifs/poster31gif.webp'
 
+import amondoposter from './assets/posters/kinomondopostertexparmcintosh.webp'
+import amondogif from './assets/gifs/poster32gif.webp'
+
 
 
 
@@ -249,6 +252,11 @@ export const GALLERY_DATA = {
         poster: indoctrposter,
         gif: indoctrgif,
         title: "woda_z_mozgu.png"
+    },
+    amondo:{
+        poster: amondoposter,
+        gif: amondogif,
+        title: "amondo_dkf.png"
     }
 }
 
