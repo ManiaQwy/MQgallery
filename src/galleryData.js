@@ -261,5 +261,4 @@ export const GALLERY_DATA = {
 }
 
 //WEBP-fying
-// Get-ChildItem *.gif | ForEach-Object { ffmpeg -i $_.FullName -loop 0 "$($_.BaseName).webp" }
-// Get-ChildItem *.png | ForEach-Object { ffmpeg -i $_.FullName "$($_.BaseName).webp" }
+// Get-ChildItem *.gif | ForEach-Object { ffmpeg -i $_.FullName -loop 0 "$($_.BaseName).webp" } Get-ChildItem *.png | ForEach-Object { ffmpeg -i $_.FullName "$($_.BaseName).webp" }

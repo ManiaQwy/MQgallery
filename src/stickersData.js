@@ -16,6 +16,9 @@ import fleshgif from './assets/gifs/sticker5gif.webp'
 import horsestc from './assets/stickers/MQdiffuse2STICKER.webp'
 import horsegif from './assets/gifs/sticker6gif.webp'
 
+import cardstc from './assets/stickers/MQpostcardSTICKER.webp'
+import cardgif from './assets/gifs/sticker7gif.webp'
+
 
 
 export const STICKER_DATA = {
@@ -49,6 +52,11 @@ export const STICKER_DATA = {
         closeup: horsestc,
         title: "what.png",
     },
+    holiday:{
+        gallery: cardgif,
+        closeup: cardstc,
+        title: "greetings.png"
+    }
 }
 
 //???
