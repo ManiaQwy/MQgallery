@@ -22,7 +22,7 @@ export default function Gallery(prop){
             <section id="gallery">
             {prop.children}
             <h1>posters</h1>
-            {Object.entries(GALLERY_DATA).map(([key, item]) => <PosterButton key={key} buttonImage={item.gif} isSelected={newPoster == item.title} onSelect={() => onPosterClick(key)}></PosterButton>)}
+            {Object.entries(GALLERY_DATA).reverse().map(([key, item]) => <PosterButton key={key} buttonImage={item.gif} isSelected={newPoster == item.title} onSelect={() => onPosterClick(key)}></PosterButton>)}
         </section>
         </>
         
