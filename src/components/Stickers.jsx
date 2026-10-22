@@ -13,7 +13,7 @@ export default function Sticker(prop){
 
     return(
         <>
-            <h1>stickers</h1>
+            {/*<h1>stickers</h1>*/}
             {newSticker && createPortal(
                 <section className="showoff" onClick={() => onStickerClick(undefined)}>
                     <img src={STICKER_DATA[newSticker].closeup} alt={STICKER_DATA[newSticker].title} />

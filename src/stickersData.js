@@ -50,7 +50,7 @@ export const STICKER_DATA = {
     horse:{
         gallery: horsegif,
         closeup: horsestc,
-        title: "what.png",
+        title: "hoarse.png",
     },
     holiday:{
         gallery: cardgif,

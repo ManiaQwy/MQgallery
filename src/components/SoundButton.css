@@ -5,9 +5,10 @@
 
 .bg {
     position: fixed;
-    top: 100;
+    top: 0;
     right: 100;
     z-index: 9999;
+    margin: 2rem;
 }
 
 button:hover {
