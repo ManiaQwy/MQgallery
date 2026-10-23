@@ -9,12 +9,17 @@ import Background from './components/Background'
 import Photobooth from './components/Photobooth'
 import Stickers from './components/Stickers'
 import Papermache from './components/Papermache'
-import testgif from './assets/misc/testgif.gif'
+import menustickers from './assets/misc/stickers.png'
+import menuposters from './assets/misc/posters.png'
+import menuphotos from './assets/misc/photobooth2.png'
+import headgif from './assets/misc/headgif.gif'
+import Mqpopup from './components/Mqpopup'
 
 function App() {
   const [page, setPage] = useState('gallery')
 
   return (
+    <>
     <Background>
       <>
         <Header>
@@ -23,22 +28,18 @@ function App() {
 
         <nav className="menu">
           <button onClick={() => setPage('gallery')} className='menu-button'>
-            GALLERY
-            <img src={testgif} alt="W.I.P" className='menu-gif'/>
+            <img src={menuposters} alt="W.I.P" className='menu-gif'/>
           </button>
 
           <button onClick={() => setPage('photobooth')} className='menu-button'>
-            PHOTOBOOTH
-            <img src={testgif} alt="W.I.P" className='menu-gif'/>
+            <img src={menuphotos} alt="W.I.P" className='menu-gif'/>
           </button>
 
           <button onClick={() => setPage('stickers')} className='menu-button'>
-            STICKERS
-            <img src={testgif} alt="W.I.P" className='menu-gif'/>
+            <img src={menustickers} alt="W.I.P" className='menu-gif'/>
           </button>
           <button onClick={() => setPage('mache')} className='menu-button'>
-            ???
-            <img src={testgif} alt="W.I.P" className='menu-gif'/>
+            <img src={headgif} alt="W.I.P" className='menu-gif'/>
           </button>
         </nav>
 
@@ -56,6 +57,8 @@ function App() {
         <Footer />
       </>
     </Background>
+    <Mqpopup/>
+    </>
   )
 }
 

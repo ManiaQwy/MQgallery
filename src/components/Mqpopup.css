@@ -1,0 +1,7 @@
+.mqpopup {
+    display: block;
+    width: 10rem;
+    height: auto;
+    align-self: flex-start;
+    margin-left: 0;
+}

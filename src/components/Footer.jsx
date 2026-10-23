@@ -1,8 +1,10 @@
 import './Footer.css'
+import testgif from '../assets/misc/testgif.gif'
 
 export default function Footer(){
     return(
         <footer>
+          <img src={testgif} alt="w.i.p" />
         <ul>
         <li><a href="mailto:mqaydotcontact@gmail.com">Contact: </a>mqaydotcontact@gmail.com</li>
         <li><a href="https://www.instagram.com/mqul.tra/">Instagram</a> mqul.tra</li>
