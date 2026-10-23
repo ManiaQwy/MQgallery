@@ -9,6 +9,7 @@ import Background from './components/Background'
 import Photobooth from './components/Photobooth'
 import Stickers from './components/Stickers'
 import Papermache from './components/Papermache'
+import testgif from './assets/misc/testgif.gif'
 
 function App() {
   const [page, setPage] = useState('gallery')
@@ -21,19 +22,23 @@ function App() {
         </Header>
 
         <nav className="menu">
-          <button onClick={() => setPage('gallery')}>
-            GALLERY -TEMPLATE
+          <button onClick={() => setPage('gallery')} className='menu-button'>
+            GALLERY
+            <img src={testgif} alt="W.I.P" className='menu-gif'/>
           </button>
 
-          <button onClick={() => setPage('photobooth')}>
-            PHOTOBOOTH - TEMPLATE
+          <button onClick={() => setPage('photobooth')} className='menu-button'>
+            PHOTOBOOTH
+            <img src={testgif} alt="W.I.P" className='menu-gif'/>
           </button>
 
-          <button onClick={() => setPage('stickers')}>
-            STICKERS - TEMPLATE
+          <button onClick={() => setPage('stickers')} className='menu-button'>
+            STICKERS
+            <img src={testgif} alt="W.I.P" className='menu-gif'/>
           </button>
-          <button onClick={() => setPage('mache')}>
-            ??? - TEMPLATE
+          <button onClick={() => setPage('mache')} className='menu-button'>
+            ???
+            <img src={testgif} alt="W.I.P" className='menu-gif'/>
           </button>
         </nav>
 
