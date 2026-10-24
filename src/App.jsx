@@ -28,15 +28,15 @@ function App() {
 
         <nav className="menu">
           <button onClick={() => setPage('gallery')} className='menu-button'>
-            <img src={menuposters} alt="W.I.P" className='menu-gif'/>
+            <img src={menuposters} alt="posters" className='menu-gif'/>
           </button>
 
           <button onClick={() => setPage('photobooth')} className='menu-button'>
-            <img src={menuphotos} alt="W.I.P" className='menu-gif'/>
+            <img src={menuphotos} alt="photos" className='menu-gif'/>
           </button>
 
           <button onClick={() => setPage('stickers')} className='menu-button'>
-            <img src={menustickers} alt="W.I.P" className='menu-gif'/>
+            <img src={menustickers} alt="stickers" className='menu-gif'/>
           </button>
           <button onClick={() => setPage('mache')} className='menu-button'>
             <img src={headgif} alt="W.I.P" className='menu-gif'/>
@@ -54,10 +54,12 @@ function App() {
 
         {page === 'mache' && <Papermache />}
 
-        <Footer />
+        <Footer>
+          <Mqpopup/>
+        </Footer>
       </>
     </Background>
-    <Mqpopup/>
+    
     </>
   )
 }

@@ -1,7 +1,7 @@
 import './Footer.css'
 import testgif from '../assets/misc/testgif.gif'
 
-export default function Footer(){
+export default function Footer(prop){
     return(
         <footer>
           <img src={testgif} alt="w.i.p" />
@@ -10,6 +10,7 @@ export default function Footer(){
         <li><a href="https://www.instagram.com/mqul.tra/">Instagram</a> mqul.tra</li>
         <li><a href="https://constrobuz.bandcamp.com/album/star-fetchers-pilot-mixtape">Music: I embrace the dying world by LK and Contsrobuz</a></li>
         </ul>
+        {prop.children}
       </footer>
     )
 }
