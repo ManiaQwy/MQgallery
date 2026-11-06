@@ -1,0 +1,91 @@
+#archive {
+    position: relative;
+    width: 60rem;
+    max-width: 60rem;
+    height: 60rem;
+    background-image: url(../assets/misc/ARCHIVEBG.webp);
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+#archive-banner{
+    max-width: 60rem;
+}
+
+.archive-photo {
+    position: absolute;
+    width: 10rem;
+    cursor: pointer;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.37);
+    transition: box-shadow 0.15s;
+}
+
+
+.archive-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    user-select: none;
+}
+.archive-delete {
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+    border: none;
+    background: rgb(185, 4, 4);
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.archive-photo:hover .archive-delete {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.showoff {
+    inset: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 60rem;
+    margin-inline: auto;
+    height: 105vh;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    animation: onAppearence 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    z-index: 100;
+}
+
+.showoff img {
+    height: 80vh;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.showoff p {
+    width: 80vw;
+    max-width: 60rem;
+    text-align: center;
+    font-size: xx-large;
+    animation: onAppearence 2s ease-in-out;
+}
+
+.showoff * {
+    font-size: xx-large;
+    animation: onAppearence 2s ease-in-out;
+
+}
