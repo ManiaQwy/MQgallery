@@ -3,6 +3,8 @@ import { createPortal } from "react-dom";
 import { STICKER_DATA } from "../stickersData";
 import PosterButton from "./PosterButton";
 import './Sticker.css'
+
+//STICKER_DATA.reverse()
 export default function Sticker(prop){
     const [newSticker, setNewSticker] = useState();
 
@@ -23,7 +25,7 @@ export default function Sticker(prop){
             )}
             <section id="gallery">
             {prop.children}
-            {Object.entries(STICKER_DATA).map(([key, item]) => <PosterButton key={key} buttonImage={item.gallery} isSelected={newSticker == item.title} onSelect={() => onStickerClick(key)}></PosterButton>)}
+            {Object.entries(STICKER_DATA).reverse().map(([key, item]) => <PosterButton key={key} buttonImage={item.gallery} isSelected={newSticker == item.title} onSelect={() => onStickerClick(key)}></PosterButton>)}
         </section>
         </>
         

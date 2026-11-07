@@ -1,3 +1,16 @@
+@import url('https://fonts.cdnfonts.com/css/vcr-osd-mono');
+
+#warning{
+    background-color: crimson;
+    max-width: 60rem;
+    padding: 1rem;
+}
+
+#warning *{
+    font-family: "VCR OSD mono", "sans serif";
+}
+
+
 #archive {
     position: relative;
     width: 60rem;

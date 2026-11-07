@@ -9,6 +9,16 @@ const PHOTO_H = 22;
 
 const rand = (min, max) => Math.random() * (max - min) + min;
 
+const shuffle = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+
+    return array;
+}
+
 const scatter = () =>
     ARCHIVES.map((src, id) => ({
         id,
@@ -17,6 +27,8 @@ const scatter = () =>
         top: rand(0, 100 - PHOTO_H),
         rotate: rand(-12, 12),
     }));
+
+shuffle(ARCHIVES);
 
 export default function Papermache() {
     const [photos, setPhotos] = useState(scatter);
@@ -29,6 +41,11 @@ export default function Papermache() {
 
     return (
         <>
+        <div id="warning">
+            <b>WARNING</b>
+            <p>*best experienced on pc</p>
+            <p>*might require good enough hardware to render and work properly</p>
+        </div>
             <img id="archive-banner" src={archivebanner} alt="archiwum"/>
             {selected && createPortal(
                 <section className="showoff" onClick={() => setSelected(null)}>
