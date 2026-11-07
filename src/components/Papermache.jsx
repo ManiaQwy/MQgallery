@@ -44,7 +44,7 @@ export default function Papermache() {
         <div id="warning">
             <b>WARNING</b>
             <p>*best experienced on pc</p>
-            <p>*might require good enough hardware to render and work properly</p>
+            <p>*might require good enough hardware and internet connection to render and work properly</p>
         </div>
             <img id="archive-banner" src={archivebanner} alt="archiwum"/>
             {selected && createPortal(
