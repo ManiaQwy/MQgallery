@@ -1,3 +1,14 @@
-const archive = import.meta.glob('./assets/mqarchive/*', {eager: true}); //EAGER - ALL PHOTOS IN A SINGLE PROMISE
-
-export const ARCHIVES = Object.values(archive).map(f => f.default);
+const full = import.meta.glob('./assets/mqarchive/*', {
+    eager: true,
+    import: 'default',
+    query: { w: 1600, format: 'webp' },
+});
+const thumbs = import.meta.glob('./assets/mqarchive/*', {
+    eager: true,
+    import: 'default',
+    query: { w: 400, format: 'webp' },
+});
+export const ARCHIVES = Object.keys(full).map((key) => ({
+    full: full[key],
+    thumb: thumbs[key],
+}));
