@@ -19,6 +19,8 @@ import horsegif from './assets/gifs/sticker6gif.webp'
 import cardstc from './assets/stickers/MQpostcardSTICKER.webp'
 import cardgif from './assets/gifs/sticker7gif.webp'
 
+import stagstc from './assets/stickers/MQstagnantsSTC.webp'
+import staggif from './assets/gifs/sticker8gif.webp'
 
 
 export const STICKER_DATA = {
@@ -56,6 +58,11 @@ export const STICKER_DATA = {
         gallery: cardgif,
         closeup: cardstc,
         title: "greetings.png"
+    },
+    stag:{
+        gallery: staggif,
+        closeup: stagstc,
+        title: "alloverforever.png"
     }
 }
 
