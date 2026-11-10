@@ -12,6 +12,7 @@ import Papermache from './components/Papermache'
 import menustickers from './assets/misc/stickers.png'
 import menuposters from './assets/misc/posters.png'
 import menuphotos from './assets/misc/photobooth2.png'
+import menuarchive from './assets/misc/archive.png'
 import headgif from './assets/misc/headgif.gif'
 import Mqpopup from './components/Mqpopup'
 
@@ -39,7 +40,7 @@ function App() {
             <img src={menustickers} alt="stickers" className='menu-gif'/>
           </button>
           <button onClick={() => setPage('mache')} className='menu-button'>
-            <img src={headgif} alt="W.I.P" className='menu-gif'/>
+            <img src={menuarchive} alt="archive" className='menu-gif'/>
           </button>
         </nav>
 
